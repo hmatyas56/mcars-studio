@@ -15,6 +15,10 @@ View your app in AI Studio: https://ai.studio/apps/e0d555f8-1f47-4848-b024-3cdf4
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+
+## Meta Pixel
+
+Base kód pixelu je v `index.html` – před nasazením nahraďte `PIXEL_ID_ZDE` skutečným Pixel ID (2 výskyty).
+Konverzní eventy: `Lead` (odeslání formuláře, `components/FormSection.tsx`), `Contact` (klik na telefon, `components/FloatingPhone.tsx`) – wrapper v `lib/tracking.ts`.

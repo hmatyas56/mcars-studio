@@ -1,5 +1,6 @@
 
 import React, { forwardRef, useState, useEffect, useRef } from 'react';
+import { trackLead } from '../lib/tracking';
 
 const FormSection = forwardRef<HTMLDivElement>((props, ref) => {
   const [submitted, setSubmitted] = useState(false);
@@ -65,6 +66,7 @@ const FormSection = forwardRef<HTMLDivElement>((props, ref) => {
         body: new URLSearchParams(payload), // důležité: žádné JSON a žádné headers
       });
 
+      trackLead({ content_category: carType });
       setSubmitted(true);
     } catch (err) {
       console.error(err);

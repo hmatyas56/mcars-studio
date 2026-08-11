@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { trackContact } from '../lib/tracking';
 
 const FloatingPhone: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,6 +38,7 @@ const FloatingPhone: React.FC = () => {
         >
           <a
             href="tel:+420775542333"
+            onClick={() => trackContact({ content_name: 'Floating telefon' })}
             className="group flex items-center gap-3 bg-black/80 backdrop-blur-md border border-white/10 hover:border-brand/50 p-1.5 pr-4 md:p-2 md:pr-6 rounded-full transition-all duration-300 shadow-2xl"
           >
             <div className="w-9 h-9 md:w-10 md:h-10 bg-brand rounded-full flex items-center justify-center text-black group-hover:rotate-12 transition-transform">
