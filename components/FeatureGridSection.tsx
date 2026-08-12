@@ -119,7 +119,7 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({ onCtaClick }) =
               <div className="p-6 md:p-8">
                 <h4 className="text-2xl font-bold text-black mb-4 font-sans">Ochrana, která šetří statisíce.</h4>
                 <p className="text-gray-600 leading-relaxed font-sans">
-                  PPF fólie chrání váš vůz před kamínky, škrábanci i UV zářením. Minimalizujete náklady na opravy laku a zároveň si udržíte vyšší hodnotu vozu při prodeji.
+                  PPF fólie chrání váš vůz před kamínky, škrábanci i UV zářením. Auto po naší přípravě? Prodáno za 3 dny.
                 </p>
               </div>
             </div>
