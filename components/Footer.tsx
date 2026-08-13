@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ onTermsClick }) => {
       {/* Background Image Section */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=2000" 
+          src="/mcarstudio-team.webp"
           alt="McarStudio Team" 
           className="w-full h-full object-cover"
         />

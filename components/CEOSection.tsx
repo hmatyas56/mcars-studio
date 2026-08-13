@@ -11,7 +11,7 @@ const CEOSection: React.FC = () => {
           {/* Photo 3:2 */}
           <div className="w-full md:w-48 flex-shrink-0 aspect-[3/2] rounded-2xl overflow-hidden shadow-sm">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" 
+              src="/vasyl-danc-ceo.webp"
               alt="Vasyl Danč" 
               className="w-full h-full object-cover grayscale-[0.1]"
             />
