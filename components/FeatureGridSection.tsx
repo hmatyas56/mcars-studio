@@ -55,15 +55,11 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({ onCtaClick }) =
           <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
             <div className="bg-white rounded-[2.5rem] p-4 md:p-6 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] border border-gray-100 group hover:shadow-[0_30px_80px_-15px_rgba(0,0,0,0.1)] transition-all duration-500">
               <div className="relative overflow-hidden rounded-[2rem]">
-                <video 
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline 
+                <img
+                  src="/feature-zivotnost.webp"
+                  alt="Jak dlouho PPF fólie vydrží?"
                   className="w-full h-[350px] md:h-[450px] object-cover transition-transform duration-1000 group-hover:scale-110"
-                >
-                  <source src="https://assets.mixkit.co/videos/preview/mixkit-man-polishing-a-car-with-a-machine-41584-large.mp4" type="video/mp4" />
-                </video>
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <div className="p-6 md:p-8">
@@ -81,15 +77,11 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({ onCtaClick }) =
           <div className={`transition-all duration-1000 delay-500 md:mt-32 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
              <div className="bg-white rounded-[2.5rem] p-4 md:p-6 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] border border-gray-100 group hover:shadow-[0_30px_80px_-15px_rgba(0,0,0,0.1)] transition-all duration-500">
               <div className="relative overflow-hidden rounded-[2rem]">
-                <video 
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline 
+                <img
+                  src="/feature-precizni-aplikace.webp"
+                  alt="Precizní aplikace bez rizika poškození laku"
                   className="w-full h-[350px] md:h-[450px] object-cover transition-transform duration-1000 group-hover:scale-110"
-                >
-                  <source src="https://assets.mixkit.co/videos/preview/mixkit-car-polishing-detail-41583-large.mp4" type="video/mp4" />
-                </video>
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <div className="p-6 md:p-8">
@@ -105,15 +97,11 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({ onCtaClick }) =
           <div className={`transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
             <div className="bg-white rounded-[2.5rem] p-4 md:p-6 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] border border-gray-100 group hover:shadow-[0_30px_80px_-15px_rgba(0,0,0,0.1)] transition-all duration-500">
               <div className="relative overflow-hidden rounded-[2rem]">
-                <video 
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline 
+                <img
+                  src="/feature-ochrana-hodnota.webp"
+                  alt="Ochrana, která šetří statisíce"
                   className="w-full h-[350px] md:h-[450px] object-cover transition-transform duration-1000 group-hover:scale-110"
-                >
-                  <source src="https://assets.mixkit.co/videos/preview/mixkit-man-cleaning-a-car-with-a-cloth-41585-large.mp4" type="video/mp4" />
-                </video>
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <div className="p-6 md:p-8">
@@ -129,15 +117,11 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({ onCtaClick }) =
           <div className={`transition-all duration-1000 delay-900 md:mt-32 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
              <div className="bg-white rounded-[2.5rem] p-4 md:p-6 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] border border-gray-100 group hover:shadow-[0_30px_80px_-15px_rgba(0,0,0,0.1)] transition-all duration-500">
               <div className="relative overflow-hidden rounded-[2rem]">
-                <video 
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline 
+                <img
+                  src="/feature-keramika.webp"
+                  alt="Keramika nebo PPF? Nemusíte si vybírat"
                   className="w-full h-[350px] md:h-[450px] object-cover transition-transform duration-1000 group-hover:scale-110"
-                >
-                  <source src="https://assets.mixkit.co/videos/preview/mixkit-car-washing-detail-41582-large.mp4" type="video/mp4" />
-                </video>
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <div className="p-6 md:p-8">
