@@ -17,23 +17,13 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
 
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden">
-      {/* Background Video */}
+      {/* Background Photo */}
       <div className="absolute inset-0 z-0">
-        <video 
-          autoPlay 
-          loop 
-          muted 
-          playsInline 
-          poster="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=2000"
+        <img
+          src="/hero-bmw-x7-voskovka.webp"
+          alt="BMW X7 s voskovou ochranou"
           className="w-full h-full object-cover"
-        >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-man-polishing-a-car-with-a-machine-41584-large.mp4" type="video/mp4" />
-          <img 
-            src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=2000" 
-            alt="PPF Application" 
-            className="w-full h-full object-cover"
-          />
-        </video>
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-black/20"></div>
         <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-black/80 via-black/40 to-transparent"></div>
       </div>
