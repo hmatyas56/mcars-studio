@@ -93,24 +93,24 @@ const AboutUsSection: React.FC = () => {
               {/* Photo 2 */}
               <div className="relative md:absolute md:right-4 md:top-12 w-full md:w-[50%] aspect-square rounded-[2rem] overflow-hidden shadow-xl z-20 md:transform md:rotate-3 border-4 md:border-8 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1621359953476-b16299a78001?auto=format&fit=crop&q=80&w=800" 
-                  alt="Workshop Detailing" 
+                  src="/mcarstudio-workshop.webp"
+                  alt="Workshop Detailing"
                   className="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-700"
                 />
               </div>
               {/* Photo 3 */}
               <div className="relative md:absolute md:left-12 md:bottom-8 w-full md:w-[45%] aspect-square rounded-[2rem] overflow-hidden shadow-xl z-30 md:transform md:rotate-6 border-4 md:border-8 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1603584173870-7f3702c5c379?auto=format&fit=crop&q=80&w=800" 
-                  alt="Car Detailing Process" 
+                  src="/mcarstudio-detailing-proces.webp"
+                  alt="Car Detailing Process"
                   className="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-700"
                 />
               </div>
               {/* Photo 4 */}
               <div className="relative md:absolute md:right-0 md:bottom-0 w-full md:w-[55%] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl z-40 md:transform md:-rotate-2 border-4 md:border-8 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=800" 
-                  alt="Luxury Car Result" 
+                  src="/mcarstudio-vysledek.webp"
+                  alt="Luxury Car Result"
                   className="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-700"
                 />
               </div>
